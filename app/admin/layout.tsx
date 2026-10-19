@@ -145,6 +145,11 @@ export default function AdminLayout({
       path: '/admin/payments/reconcile',
     },
     {
+      title: 'Buy SMS',
+      icon: 'ri-bank-card-line',
+      path: '/admin/sms-credit'
+    },
+    {
       title: 'POS System',
       icon: 'ri-store-3-line',
       path: '/admin/pos'
@@ -205,11 +210,6 @@ export default function AdminLayout({
       title: 'SMS Debugger',
       icon: 'ri-message-2-line',
       path: '/admin/test-sms'
-    },
-    {
-      title: 'Buy SMS',
-      icon: 'ri-bank-card-line',
-      path: '/admin/sms-credit'
     },
 
     {
