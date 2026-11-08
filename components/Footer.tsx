@@ -191,7 +191,10 @@ export default function Footer() {
             >
               &copy;
             </button>{' '}
-            {new Date().getFullYear()} {legalName}. All rights reserved.
+            {new Date().getFullYear()} {legalName}. All rights reserved. Powered by{' '}
+            <a href="https://doctorbarns.com" target="_blank" rel="noopener" className="text-store-muted hover:underline">
+              Doctor Barns Tech
+            </a>
           </p>
           <div className="flex gap-4 text-store-muted text-2xl" aria-label="Accepted payment methods">
             <i className="ri-visa-line" aria-hidden />
